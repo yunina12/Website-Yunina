@@ -1,0 +1,85 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+.container {}
+
+.container-navbar {  /*titik mengarahkan kita untuk elemen apa yg maukita ubah*/
+background-color: #3acbf7;
+height: 10vh;
+}
+
+.ul-navbar { 
+    height: 100%;
+   display: flex; /*membuat elemen menjadi baris atau kotak-kotak*/
+   justify-content: center; /*membuat elemen di tengah-tengah*/
+   align-items: center; /*membuat elemen di tengah-tengah*/
+}
+.li-navbar{
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color:white
+}
+    .li-navbar:hover {
+    background-color: tomato;
+    transition-delay: .3s;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content {
+    background: color #555;
+    /* membuat element di tengah- tengah */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.a-content {
+    width: 700px;
+    height: 400px;
+    text-decoration: none;
+    background-color:white
+    color(srgb red green rgb(19, 19, 21))
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    width: 30%;
+    height: 50%;
+}
+.container-foofter {
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.h1-foofter {
+    background-color: rgb(116, 8, 8);
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
